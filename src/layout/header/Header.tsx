@@ -22,11 +22,11 @@ export const Header = () => {
   );
 };
 const StyledHeader = styled.header`
-    background-color: rgba(255, 230, 230, 0.67);
+    background-color: rgb(211, 209, 209);
     padding: 20px 0;
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 9999;
 `

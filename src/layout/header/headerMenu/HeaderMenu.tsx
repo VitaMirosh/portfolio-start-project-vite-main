@@ -46,8 +46,7 @@ const Mask = styled.span`
     display: inline-block;
     height: 50%;
     overflow-y: hidden;
-    //outline:1px solid  red;
-    color: ${theme.colors.accent};
+    color: ${theme.colors.font};
 
     & + & {
 
@@ -66,7 +65,7 @@ const ListItem = styled.li`
         content: "";
         display: inline-block;
         height: 3px;
-        background-color: ${theme.colors.accent};
+        background-color: ${theme.colors.font};
         
         position: absolute;
         top:50%;
@@ -82,7 +81,7 @@ const ListItem = styled.li`
         }
         ${Mask} {
             transform: skewX(12deg) translateX(5px);
-            color:${theme.colors.font};
+            color:${theme.colors.accent};
 
             & + ${Mask} {
                 transform: skewX(12deg) translateX(-5px);
