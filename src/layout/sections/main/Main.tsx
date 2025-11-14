@@ -26,6 +26,7 @@ const Photo = styled.img`
     width: 350px;
     height: 450px;
     object-fit: cover;
+     
 `
 const MainTitle = styled.h1`
   
