@@ -12,7 +12,7 @@ export const Main = () => {
           <div>
             <SmallText>Hi There</SmallText>
             <Name>I am <span>Vitaliia Miroshnychenko</span></Name>
-            <MainTitle>A Web Developer.</MainTitle>
+            <MainTitle>A Frontend Developer.</MainTitle>
           </div>
           <PhotoWrapper>
             <Photo src={photo} alt=""/>
@@ -34,14 +34,24 @@ const PhotoWrapper=styled.div`
   position : relative;
     z-index: 0;
     
+    &::after{
+        content: "";
+        width: 360px;
+        height: 470px;
+        border: 5px solid ${theme.colors.accent};
+        position: absolute;
+        top:-30px;
+        left:30px;
+        z-index: -1;
+    }
     &::before{
         content: "";
         width: 360px;
         height: 470px;
         border: 5px solid ${theme.colors.accent};
         position: absolute;
-        top:-24px;
-        left:24px;
+        top: 30px;
+        left:-30px;
         z-index: -1;
     }
     
@@ -51,7 +61,7 @@ const Photo = styled.img`
     width: 350px;
     height: 450px;
     object-fit: cover;
-     
+    
 `
 const MainTitle = styled.h1`
  font-weight: 400;
@@ -73,7 +83,7 @@ span{
         content:"";
         display:inline-block;
         width: 100%;
-        height: 20px;
+        height: 15px;
         background-color: ${theme.colors.accent};
         position: absolute;
         bottom: 0;
