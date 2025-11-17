@@ -5,8 +5,12 @@ export const theme = {
     primaryBg: "rgba(124,117,117,0.32)",
     secondaryBg: "rgba(124,117,117,0.85)",
     accent: "rgb(5,236,245)",
+    highlight:"rgba(255, 246, 252, 0.67)",
 
     font: "#111111",
-  },
+    borderColor: "rgba(74, 74, 74, 1)",
+    placeholderColor:"rgba(73, 80, 87, 1)"
+  }
 
 }
+

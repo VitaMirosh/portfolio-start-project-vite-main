@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {FlexWrapper} from "../FlexWrapper.tsx";
+import {theme} from "../../styles/Theme.ts";
 
 
 export const Slider = () => {
@@ -13,7 +14,7 @@ export const Slider = () => {
       </FlexWrapper>
      <Pagination>
        <span></span>
-       <span></span>
+       <span className="active"></span>
        <span></span>
      </Pagination>
     </StyledSlider>
@@ -22,7 +23,6 @@ export const Slider = () => {
 
 const StyledSlider = styled.div`
     display: flex;
-    border: 1px solid red;
     max-width: 500px;
     flex-direction: column;
     align-items: center;
@@ -34,13 +34,33 @@ const Text = styled.p`
 
 `
 const Name = styled.span`
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 22px 0 42px;
+    
+    display: inline-block;
+
+
 `
 const Pagination = styled.span`
-  span{
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      margin:5px;
-      background: red;
-  }
+    span {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background: rgb(5,236,245);
+        border-radius: 20px;
+        
+        & + span {
+            margin-left: 5px;
+        }
+       &.active {
+           background-color: ${theme.colors.accent}; 
+           width: 20px;
+            
+        }
+        
+    }
 `

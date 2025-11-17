@@ -4,6 +4,7 @@ import {Logo} from "../../components/logo/Logo.tsx";
 import {Container} from "../../components/Container.ts";
 import {FlexWrapper} from "../../components/FlexWrapper.tsx";
 import {HeaderMenu} from "./headerMenu/HeaderMenu.tsx";
+import {theme} from "../../styles/Theme.ts";
 
 
 const item = ["Home","Skills","Works","Testimony","Contact"]
@@ -22,7 +23,7 @@ export const Header = () => {
   );
 };
 const StyledHeader = styled.header`
-    background-color: rgb(211, 209, 209);
+    background-color: ${theme.colors.highlight};
     padding: 20px 0;
     position: fixed;
     top: 0;

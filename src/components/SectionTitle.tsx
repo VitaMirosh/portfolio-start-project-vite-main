@@ -17,12 +17,12 @@ export const SectionTitle = styled.h2`
         content: "";
         display:inline-block;
         width: 55px;
-        height: 2px;
+        height: 1px;
         background-color: ${theme.colors.accent};
         
         position: absolute;
         left: 50%;
-        transform: translate(-50%);
+        transform: translateX(-50%);
         bottom: -30px;
         opacity: 0.5
     ;
