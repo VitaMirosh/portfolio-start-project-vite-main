@@ -19,31 +19,54 @@ export const GlobalStyle = createGlobalStyle`
         sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        color:${theme.colors.font};
+        color: ${theme.colors.font};
         line-height: 1.2;
     }
 
     a {
         text-decoration: none;
+        color:${theme.colors.font};
+        cursor: pointer;
     }
 
     ul {
         list-style: none;
     }
-    button{
+
+    button {
         background-color: unset;
         border: none;
+        cursor: pointer;
+        color: ${theme.colors.font};
     }
+
     section {
         padding: 100px 0;
-    }
-    section:nth-of-type(odd){
-        background-color: ${theme.colors.secondaryBg};
         
     }
-    
-    section:nth-of-type(even){
+
+    section:nth-of-type(odd) {
+        background-color: ${theme.colors.secondaryBg};
+    }
+   
+   
+
+    section:nth-of-type(even) {
         background-color: ${theme.colors.primaryBg};
     }
-    `
+
+    h3 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+`
 
