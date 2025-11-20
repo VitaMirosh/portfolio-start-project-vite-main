@@ -29,8 +29,8 @@ const StyledMain = styled.section`
     min-height: 100vh;
     background-color: #ffe6e6;
     display: flex;
-    
 `
+
 const PhotoWrapper=styled.div`
   position : relative;
     z-index: 0;

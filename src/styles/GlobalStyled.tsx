@@ -1,5 +1,6 @@
 import {createGlobalStyle} from "styled-components";
 import {theme} from "./Theme.ts";
+import bg from "../assets/images/background.png"
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -43,13 +44,27 @@ export const GlobalStyle = createGlobalStyle`
     section {
         padding: 100px 0;
         
+        @media ${theme.media.mobile} {
+            padding: 80px 0;
+        }
+       
+        
     }
 
     section:nth-of-type(odd) {
         background-color: ${theme.colors.secondaryBg};
     }
-   
-   
+
+    section:nth-of-type(odd) {
+        background-image: url(${bg});
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100vw;
+        max-height: 100vh;
+        width: 100%;
+        
+    }
 
     section:nth-of-type(even) {
         background-color: ${theme.colors.primaryBg};
