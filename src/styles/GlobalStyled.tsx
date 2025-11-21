@@ -60,10 +60,6 @@ export const GlobalStyle = createGlobalStyle`
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        max-width: 100vw;
-        max-height: 100vh;
-        width: 100%;
-        
     }
 
     section:nth-of-type(even) {
