@@ -8,7 +8,7 @@ export const SectionTitle = styled.h2`
     ${font({family: "'Josefin Sans', sans-serif",weight: 600,Fmax:36,Fmin:30})}
     text-align: center;
     letter-spacing: 5px;
-    margin-bottom: 90px;
+    margin-bottom: 85px;
     
     
     position: relative;

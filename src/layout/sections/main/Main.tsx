@@ -29,12 +29,13 @@ const StyledMain = styled.section`
     min-height: 100vh;
     background-color: #ffe6e6;
     display: flex;
+    
 `
 
 const PhotoWrapper=styled.div`
   position : relative;
     z-index: 0;
-    margin-top: 65px;
+  
     
     &::before{
         content: "";
@@ -52,8 +53,10 @@ const PhotoWrapper=styled.div`
             height: 414px;
             top:-17px;
             left:20px;
-           
         }
+    }
+    @media ${theme.media.mobile} {
+        margin-top: 65px;
     }
     
 `

@@ -33,4 +33,8 @@ const StyledWorks = styled.section`
    ${FlexWrapper} {
        gap:30px
    }
+    ${SectionTitle}{
+        margin-top: -10px;
+      
+    }  
 `

@@ -22,7 +22,9 @@ export const Contact = () => {
 };
 
 const StyledContact = styled.section`
-
+    ${SectionTitle}{
+        margin-top: -20px;
+    }
 `
 const StyledForm = styled.form`
     max-width: 540px;

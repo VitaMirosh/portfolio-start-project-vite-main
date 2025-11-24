@@ -30,7 +30,9 @@ const StyledTestimony = styled.section`
     min-height: 50vh;
 
     ${IconWrapper} {
-        margin: 40px 0 72px;
-
+        margin: 28px 0 72px;
+    }
+    ${SectionTitle}{
+        margin-top: 25px;
     }
 `
