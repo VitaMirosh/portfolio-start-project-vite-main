@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {FlexWrapper} from "../../../components/FlexWrapper.ts";
 import {theme} from "../../../styles/Theme.ts";
-import {Link} from "../../../components/Link.tsx";
-import {Button} from "../../../components/Button.tsx";
-import {SectionTitle} from "../../../components/SectionTitle.tsx";
+import {Link} from "../../../components/Link.ts";
+import {Button} from "../../../components/Button.ts";
+import {SectionTitle} from "../../../components/SectionTitle.ts";
 
 const Works = styled.section`
     ${FlexWrapper} {

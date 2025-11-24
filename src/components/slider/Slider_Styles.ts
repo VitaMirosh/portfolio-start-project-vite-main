@@ -24,7 +24,7 @@ const Name = styled.span`
 
 
 `
-const Pagination = styled.span`
+const Pagination = styled.div`
     span {
         display: inline-block;
         width: 7px;
@@ -38,7 +38,7 @@ const Pagination = styled.span`
        &.active {
            background-color: ${theme.colors.accent}; 
            width: 20px;
-            
+
         }
     }
 `

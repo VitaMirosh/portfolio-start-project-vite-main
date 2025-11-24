@@ -1,6 +1,6 @@
 import {Logo} from "../../components/logo/Logo.tsx";
 import {Container} from "../../components/Container.ts";
-import {FlexWrapper} from "../../components/FlexWrapper.tsx";
+import {FlexWrapper} from "../../components/FlexWrapper.ts";
 import {MobileMenu} from "./headerMenu/mobileMenu/MobileMenu.tsx";
 import * as React from "react";
 import {S} from './Header_Styles.ts'

@@ -1,5 +1,5 @@
-import {Link} from "../../../../components/Link.tsx";
-import {Button} from "../../../../components/Button.tsx";
+import {Link} from "../../../../components/Link.ts";
+import {Button} from "../../../../components/Button.ts";
 import * as React from "react";
 import { S } from "../Works_Styles.ts";
 

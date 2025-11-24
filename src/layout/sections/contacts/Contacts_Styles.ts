@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {SectionTitle} from "../../../components/SectionTitle.tsx";
+import {SectionTitle} from "../../../components/SectionTitle.ts";
 import {theme} from "../../../styles/Theme.ts";
 
 const Contact = styled.section`
