@@ -1,6 +1,7 @@
 import {Icon} from "../../components/icon/Icon.tsx";
 import {FlexWrapper} from "../../components/FlexWrapper.tsx";
 import {S} from "./Footer_Styles.ts";
+import * as React from "react";
 
 
 const socialItemData = [
@@ -18,7 +19,7 @@ const socialItemData = [
 ]
 
 
-export const Footer = () => {
+export const Footer:React.FC = () => {
   return (
     <S.Footer>
       <FlexWrapper direction={"column"} aling={"center"}>
