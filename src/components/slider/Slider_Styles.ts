@@ -1,11 +1,13 @@
 import styled from "styled-components";
-import {theme} from "../../styles/Theme.ts";
+
 
 const Slider = styled.div`
     display: flex;
     max-width: 500px;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    border:1px solid red
 `
 const Slide = styled.div`
   text-align: center;
@@ -24,29 +26,12 @@ const Name = styled.span`
 
 
 `
-const Pagination = styled.div`
-    span {
-        display: inline-block;
-        width: 7px;
-        height: 7px;
-        background: ${theme.colors.accent};
-        border-radius: 20px;
-        
-        & + span {
-            margin-left: 5px;
-        }
-       &.active {
-           background-color: ${theme.colors.accent}; 
-           width: 20px;
 
-        }
-    }
-`
 export const S = {
   Slider,
   Slide,
   Text,
   Name,
-  Pagination
+
 
 }
