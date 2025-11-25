@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import {theme} from "../../../styles/Theme.ts";
 
+
+
 const Skills = styled.section`
 `
 
@@ -9,6 +11,8 @@ const Skill = styled.div`
     width: 330px;
     flex-grow: 1;
     padding: 42px 20px 58px;
+    
+    
 
     @media ${theme.media.mobile} {
         padding: 62px 0 40px;
@@ -17,7 +21,7 @@ const Skill = styled.div`
 `
 export const IconWrapper = styled.div`
     position: relative;
-
+    
     &::before {
         content: "";
         display: inline-block;

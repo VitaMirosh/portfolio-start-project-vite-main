@@ -16,7 +16,7 @@ export const Testimony:React.FC = () => {
         <SectionTitle>Testimony</SectionTitle>
         <FlexWrapper direction={"column"} aling={"center"}>
           <S.IconWrapper>
-            <Icon iconId={"quotes"} fill={"rgb(5,236,245)"}/>
+            <Icon iconId={"quotes"} fill={"rgb(245,5,5)"}/>
           </S.IconWrapper>
           <Slider/>
         </FlexWrapper>

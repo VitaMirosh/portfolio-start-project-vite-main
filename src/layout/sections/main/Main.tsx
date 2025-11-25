@@ -1,4 +1,4 @@
-import photo from '../../../assets/images/photo.webp'
+import photo from '../../../assets/images/photo.png'
 import {FlexWrapper} from "../../../components/FlexWrapper.ts";
 import {Container} from "../../../components/Container.ts";
 import * as React from "react";
