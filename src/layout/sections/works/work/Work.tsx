@@ -1,7 +1,7 @@
 import {Link} from "../../../../components/Link.ts";
 import {Button} from "../../../../components/Button.ts";
 import * as React from "react";
-import { S } from "../Works_Styles.ts";
+import {S} from "../Works_Styles.ts";
 
 type WorkPropsType = {
   title: string
@@ -20,7 +20,7 @@ export const Work: React.FC<WorkPropsType> = (props: WorkPropsType) => {
       <S.Description>
         <S.Title>{props.title}</S.Title>
         <S.Text>{props.text}</S.Text>
-        <Link href={"#"}>demo</Link>
+        <Link active href={"#"}>demo</Link>
         <Link href={"#"}>code</Link>
       </S.Description>
     </S.Work>
