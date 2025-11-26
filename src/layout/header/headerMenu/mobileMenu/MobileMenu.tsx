@@ -4,7 +4,7 @@ import * as React from "react";
 import {useState} from "react";
 
 
-export const MobileMenu: React.FC<{ menuItems: Array<string> }> = (props: { menuItems: Array<string> }) => {
+export const MobileMenu: React.FC = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
   const onBurgerBtnClick = ()=>{
     setMenuIsOpen(!menuIsOpen)
@@ -16,7 +16,7 @@ export const MobileMenu: React.FC<{ menuItems: Array<string> }> = (props: { menu
       </S.BurgerButton>
 
       <S.MobileMenuPopup isOpen={menuIsOpen} onClick={()=>{setMenuIsOpen(false)}}>
-        <Menu menuItems={props.menuItems}></Menu>
+        <Menu/>
       </S.MobileMenuPopup>
     </S.MobileMenu>
   );

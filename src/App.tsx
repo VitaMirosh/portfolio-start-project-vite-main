@@ -6,6 +6,7 @@ import {Testimony} from "./layout/sections/testimony/Testimony.tsx";
 import {Contact} from "./layout/sections/contacts/Contacts.tsx";
 import {Slogan} from "./layout/sections/slogan/Slogan.tsx";
 import {Footer} from "./layout/footer/Footer.tsx";
+import {GoToBtn} from "./components/goToBtn/GoToBtn.tsx";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Contact/>
       <Slogan/>
       <Footer/>
+      <GoToBtn/>
     </div>
   )
 }

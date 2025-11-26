@@ -12,11 +12,17 @@
     "predeploy": "pnpm run build"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
+    "@types/react-scroll": "^1.8.10",
     "react": "^19.2.0",
     "react-alice-carousel": "^2.9.1",
     "react-dom": "^19.2.0",
     "react-parallax-tilt": "^1.7.314",
+    "react-scroll": "^1.9.3",
     "styled-components": "^6.1.13",
+    "tsparticles": "^3.9.1",
+    "tsparticles-engine": "^2.12.0",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {

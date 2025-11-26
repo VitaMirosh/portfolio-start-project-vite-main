@@ -3,10 +3,10 @@ import {Menu} from "../menu/Menu.tsx";
 import * as React from "react";
 
 
-export const DesktopMenu: React.FC<{ menuItems: Array<string> }> = (props: { menuItems: Array<string> }) => {
+export const DesktopMenu: React.FC = () => {
   return (
     <S.DesktopMenu>
-      <Menu menuItems={props.menuItems}></Menu>
+      <Menu/>
     </S.DesktopMenu>
   );
 };
