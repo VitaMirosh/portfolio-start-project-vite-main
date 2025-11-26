@@ -4,7 +4,7 @@ import {Container} from "../../../components/Container.ts";
 import * as React from "react";
 import {S} from './Main_Styles.ts';
 import Typewriter from 'typewriter-effect';
-
+import Tilt from 'react-parallax-tilt';
 
 
 export const Main: React.FC = () => {
@@ -15,7 +15,6 @@ export const Main: React.FC = () => {
           <div>
             <S.SmallText>Hi There</S.SmallText>
             <S.Name>I am <span>Vitaliia Miroshnychenko</span></S.Name>
-            {/*<S.MainTitle>A Frontend Developer.</S.MainTitle>*/}
             <S.MainTitle>
               <p>A Frontend Developer.</p>
               <Typewriter
@@ -23,17 +22,22 @@ export const Main: React.FC = () => {
                   strings: ["A Frontend Developer."],
                   autoStart: true,
                   loop: true,
-                  delay:150
+                  delay: 150
                 }}
               />
             </S.MainTitle>
           </div>
-          <S.PhotoWrapper>
-            <S.Photo src={photo} alt=""/>
-          </S.PhotoWrapper>
+
+            <S.PhotoWrapper>
+              <Tilt>
+              <S.Photo src={photo} alt=""/>
+              </Tilt>
+            </S.PhotoWrapper>
         </FlexWrapper>
       </Container>
     </ S.Main>
   );
 };
+
+
 
