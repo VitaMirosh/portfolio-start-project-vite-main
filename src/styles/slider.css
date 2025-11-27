@@ -5,6 +5,7 @@
     display: inline-block;
     width: 7px;
     height: 7px;
+    transition: .2s ease-in-out;
     background: black;
     border-radius: 20px;
 }

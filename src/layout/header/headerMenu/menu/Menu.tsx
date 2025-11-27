@@ -35,7 +35,7 @@ import {S} from '../../HeaderMenu_styles.ts'
             to={item.href}
             smooth={true}
             spy={true}
-            offset={2}
+
           >
             {item.title}
             <S.Mask>
