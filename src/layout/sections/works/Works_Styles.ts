@@ -4,6 +4,7 @@ import {theme} from "../../../styles/Theme.ts";
 import {Link} from "../../../components/Link.ts";
 import {Button} from "../../../components/Button.ts";
 import {SectionTitle} from "../../../components/SectionTitle.ts";
+import {motion} from "framer-motion";
 
 const Works = styled.section`
     ${FlexWrapper} {
@@ -16,11 +17,11 @@ const Works = styled.section`
     }
 `
 
-const Work = styled.div`
+const Work = styled(motion.div)`
     background-color: ${theme.colors.highlight};
     
-    width: 330px;
-    flex-grow: 1;
+    //width: 330px;
+    //flex-grow: 1;
 
     ${Link} {
         padding: 10px 0;
@@ -29,10 +30,10 @@ const Work = styled.div`
             margin-left: 20px;
         }
     }
-    @media ${theme.media.desktop} {
-        max-width: 540px;
-    }
-`
+//     @media ${theme.media.desktop} {
+//         max-width: 540px;
+//     }
+ `
 const ImageWrapper = styled.div`
     position: relative;
 

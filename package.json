@@ -16,6 +16,7 @@
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@types/react-scroll": "^1.8.10",
+    "framer-motion": "^12.23.24",
     "react": "^19.2.0",
     "react-alice-carousel": "^2.9.1",
     "react-awesome-reveal": "^4.3.1",
