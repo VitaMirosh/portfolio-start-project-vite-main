@@ -12,11 +12,13 @@
     "predeploy": "pnpm run build"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
     "@tsparticles/engine": "^3.9.1",
     "@tsparticles/react": "^3.0.0",
     "@types/react-scroll": "^1.8.10",
     "react": "^19.2.0",
     "react-alice-carousel": "^2.9.1",
+    "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.2.0",
     "react-parallax-tilt": "^1.7.314",
     "react-scroll": "^1.9.3",

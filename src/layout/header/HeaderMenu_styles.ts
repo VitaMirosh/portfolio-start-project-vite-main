@@ -77,7 +77,6 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     bottom: 0;
     z-index: 9999;
     background-color: ${theme.colors.secondaryBg};
-    display: none;
     display: flex;
     justify-content: center;
     align-items: center;
